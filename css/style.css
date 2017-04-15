@@ -1,0 +1,382 @@
+body{
+  background-color: #F7F8F9;
+}
+
+.carDiv{
+  height:220px; 
+  background-position:center center; 
+  background-size:contain; 
+  background-repeat: no-repeat;
+
+   
+
+}
+
+.navLinks li {
+
+  font-size: 0.5em;
+
+}
+
+
+.pictureTable{
+
+  box-shadow:  
+
+
+}
+
+[contenteditable="true"]:focus {
+  background-color:white;
+}
+
+
+.strong{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+
+input[type="submit"]{
+
+  background-color: #23527C;
+  color:white;
+}
+
+#logIn input[type="text"], input[type="password"]{
+  border-radius: 0;
+}
+
+.welcome{
+  margin-bottom: 50px;
+}
+
+input, select, textarea, input:focus, input:hover{
+  font-size:16px;
+}
+
+.admin{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: #23527C;
+  
+}
+
+
+.fullServiceList, .pictureTable{
+
+  padding-left:0;
+  padding-right:0;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom:30px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.fullServiceList table td {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.form{
+  
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+#signUp form{
+  display:block;
+}
+
+/*
+form input[type='submit']{
+  background-color:teal;
+  color:white;
+}
+ */
+  .form-group{
+    position:relative;
+  }
+
+ .form-group span{
+  
+  display:none;
+  position:absolute;
+  left:105%;
+  top:15px;
+
+  width:190px;
+  border-radius: 10px;
+  background-color:#23527C; 
+  color:white;
+  border:2px solid white;
+  padding:5px 10px;
+}
+
+
+
+ .form-group span::after {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  /*border-color: rgba(136, 183, 213, 0);*/
+  border-right-color: #23527C;
+  border-width: 8px;
+  margin-top: -8px;
+}
+
+
+
+  
+
+.form form{
+  padding-top:30px;
+
+}
+
+tr:nth-child(even){
+  background-color: lightgray;
+}
+
+thead{
+  background-color: lightblue;
+}
+
+#service_input_form select, input{
+  height:40px;
+}
+
+.deleteButtonForm input[type="submit"]{
+  
+  color: red;
+  border:solid 1px gray;
+  border-radius: 5px;
+  background-color:white;
+  font-weight: bold;
+  font-size:1.2em;
+
+}
+
+.deleteButtonForm input[type="button"]{
+  
+  color: red;
+  border:solid 1px gray;
+  border-radius: 5px;
+  background-color:white;
+  font-weight: bold;
+  font-size:1.2em;
+
+}
+
+#button {
+  font-size:2em;
+  
+}
+
+
+
+.wrap {
+  box-shadow: 5px 5px 5px 5px gray; }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  visibility: hidden; }
+  .overlay .menu {
+    position: relative;
+    height: 100%;
+    width: 100%; }
+    .overlay .menu .closeButton {
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: white;
+      font-size: 2em; }
+
+.navbar-brand, .navbar-nav a, h3 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 2em; }
+
+@media (min-width: 990px) {
+  .max-width {
+    max-width: 1140px;
+    margin: 0 auto; } }
+
+.mainPic {
+  position: relative;
+  margin-bottom: 0;
+  background-color: black;
+  /*background: url("../haircut.jpg") no-repeat center center;*/
+}
+
+@media(min-width:737px){
+  .mainPic{
+    background-image:url("../location.jpg");
+    height:500px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center  center;
+  }
+}
+  .mainPic .bgpic {
+    width: 100%;
+    opacity: 0.6;
+    height:500px; }
+
+    @media(min-width: 737px){
+      .bgpic{
+        display:none;
+      }
+    }
+
+  .mainPic .container {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Oleo Script Swash Caps', cursive; }
+    .mainPic .container h1 {
+      font-size: 4em;
+      margin: 0; }
+    .mainPic .container p {
+      font-size: 2em;
+      margin: 0; }
+  .mainPic .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto; }
+
+. el img {
+  width: 100%; }
+
+#gallery {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  margin-top: 50px; }
+  #gallery p {
+    font-family: 'Oleo Script Swash Caps', cursive; }
+  #gallery h3 {
+    border: 1px solid black;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    top: -30px;
+    background: white;
+    z-index: 300; }
+    @media (min-width: 480px) {
+      #gallery h3 .swipe {
+        display: none; } }
+
+.removePad {
+  padding: 0; }
+
+.serviceWrap {
+  position: relative; }
+  @media (max-width: 768px) {
+    .serviceWrap {
+      padding-bottom: 5px; } }
+  .serviceWrap .servicesPic {
+    opacity: 0.7;
+    height: 300px;
+    width: 100%; }
+  .serviceWrap #description {
+    color: white;
+    top: 35%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /*  width:90%;
+      height:90%;*/
+    padding: 0;
+    font-size: 3em;
+    position: absolute;
+    transform: translate(-10px) rotate(20deg);
+    font-family: 'Oleo Script Swash Caps', cursive; }
+
+.modal-header button {
+  font-size: 2.5em; }
+.modal-header h4 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 2em;
+  font-weight: bold; }
+
+.modal-body .catName {
+  height: 40px;
+  background-color: teal;
+  color: white; }
+
+#services h3 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 50%;
+  position: relative;
+  top: 20px;
+  z-index: 300;
+  background: white;
+  font-size: 2em; }
+  #services h3 span {
+    font-size: 0.6em; }
+
+.serviceWrap {
+  overflow: hidden; }
+  .serviceWrap:hover img {
+    filter: blur(10px); }
+
+#hours, #contact, #facebook {
+  margin-top: 50px;
+  font-size: 1.5em;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: black; }
+  #hours h3, #contact h3, #facebook h3 {
+    position: relative;
+    top: -35px;
+    border: 1px solid;
+    display: inline-block;
+    width: 70%;
+    z-index: 300;
+    background: white; }
+
+
+
+footer {
+  height: 50px;
+  background-color: red;
+  margin-top: 20px;
+  text-align: center; }
+
+#services button {
+  margin-top: 1em;
+  background-color: red;
+  border: none; }
+
+/*# sourceMappingURL=style.css.map */

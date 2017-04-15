@@ -1,0 +1,250 @@
+.wrap{
+	box-shadow: 5px 5px 5px 5px gray;
+}
+	
+.overlay{
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: rgba(0,0,0, 0.6);
+	z-index:1000;
+	visibility: hidden;
+
+	.menu{
+		position:relative;
+		height:100%;
+		width:100%;
+
+		.closeButton{
+			position:absolute;
+			top:0;
+			right:0;
+			color:white;
+			font-size:2em;
+		}
+	}
+
+}
+	
+	.navbar-brand, .navbar-nav a, h3{
+		font-family:'Oleo Script Swash Caps', cursive;
+	}
+	
+
+.max-width{
+	@media (min-width:990px){
+		max-width: 1140px;
+		margin:0 auto;	
+	}
+	  
+}	
+	
+.mainPic{
+	position:relative;
+	margin-bottom:0;
+	background-color: black;
+	
+
+		.bgpic{
+			width:100%;
+			opacity:0.6;
+			
+			
+
+		}
+	.container{
+		color:white;
+		position:absolute;
+		width:100%;
+		top:20%;
+		
+
+		margin-right: auto;
+		margin-left:auto;
+		font-family: 'Oleo Script Swash Caps', cursive;
+		h1{
+			font-size: 4em;
+			margin:0;
+		}
+		p{
+			font-size:2em;
+			margin:0;
+		}
+	}
+
+	.arrow{
+		position:absolute;
+		bottom:0;
+		left:0;
+		right:0;
+		margin-right:auto;
+		margin-left:auto;
+	}
+}
+
+
+.carousel{
+	img{
+		width:100%;
+	}
+}
+
+#gallery{
+	p{
+			font-family: 'Oleo Script Swash Caps', cursive;
+		}
+	h3{
+		border:1px solid black;
+		display:inline-block;
+		width:50%;
+		position:relative;
+		top:-30px;
+		background: white;
+		z-index: 300;
+
+		.swipe{
+			@media (min-width:480px){
+				display:none;
+			}
+
+		}
+		
+		
+	}
+	
+	border-width:1px 0 0 0;
+	border-style:solid;
+	
+	margin-top:50px;
+}
+
+
+.removePad{
+	padding:0;
+}
+
+
+
+.serviceWrap{
+	position:relative;
+	@media(max-width:768px){
+		padding-bottom:5px;
+	}
+
+
+	.servicesPic{
+		opacity: 0.7;
+		height:300px;
+		width:100%;
+		
+
+		}
+	#description{
+		color:white;
+			top:35%;
+			left:0;
+			right:0;
+			bottom:0;
+			margin-right:auto;
+			margin-left:auto;
+		/*	width:90%;
+			height:90%;*/
+			padding:0;
+			font-size:3em;
+			position:absolute;
+			transform: translate(-10px) rotate(20deg);
+			font-family: 'Oleo Script Swash Caps', cursive;
+
+			
+			
+
+		}
+}
+
+
+.modal-header{
+	button{
+		font-size: 2.5em;
+	}
+	h4{
+		font-family:'Oleo Script Swash Caps', cursive;
+		font-size:2em;
+		font-weight:bold;
+	}
+}
+
+.modal-body{
+	.col-xs-12{
+	height:40px;	
+	background-color:teal;
+	color:white;
+	}
+}
+
+#services{
+	h3{
+		display:inline-block;
+	border:1px solid black;
+	width:50%;
+	position:relative;
+	top:20px;
+	z-index:300;
+	background:white;
+	font-size: 2em;
+
+	span{
+		font-size:0.6em;
+	}
+
+}
+}
+
+.serviceWrap{
+		overflow: hidden;
+		&:hover{
+
+			img{
+				
+				 filter:blur(10px);
+			}
+		}
+		
+	}
+
+
+
+
+#hours, #location, #facebook{
+	margin-top:50px;
+	font-size:2em;
+	border-width:1px 0 0 0;
+	border-style:solid;
+	border-color:black;
+	h3{
+		position:relative;
+		top:-35px;
+		border:1px solid;
+		display:inline-block;
+		width:50%;
+		z-index:300;
+		background:white;
+	}
+}
+
+
+
+footer{
+	height:50px;
+	background-color:red;
+	margin-top:20px;
+	text-align:center;
+}
+
+#services button{
+	margin-top: 1em;
+	background-color:red;
+	border:none;
+
+}
